@@ -277,7 +277,7 @@ WHERE option_id = 2;
 
 
 UPDATE wp_posts SET post_content = '"'"${PRIVACY_POLICY}"'"' WHERE wp_posts.ID = 3;
-UPDATE wp_posts SET post_date = now() WHERE wp_posts.ID = 3;
+UPDATE wp_posts SET post_date = DATE_SUB(now(), INTERVAL 20 DAY) WHERE wp_posts.ID = 3;
 
 EOF
 
