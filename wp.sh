@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IP_DROPP=165.22.42.160
+#IP_DROPP=165.22.42.160
 
 ## start
 echo -n "введите имя хоста <- "
@@ -249,7 +249,7 @@ WHERE ID = '1';
 UPDATE wp_options SET
 option_id = 186,
 option_name = 'ftp_credentials',
-option_value = 'a:3:{s:8:\"hostname\";s:14:\"${IP_DROPP}\";s:8:\"username\";s:9:\"${wp_and_db_user}\";s:15:\"connection_type\";s:3:\"ftp\";}',
+option_value = 'a:3:{s:8:\"hostname\";s:14:\"localhost\";s:8:\"username\";s:9:\"${wp_and_db_user}\";s:15:\"connection_type\";s:3:\"ftp\";}',
 autoload = 'yes'
 WHERE option_id = 186;
 
