@@ -23,7 +23,7 @@ export VESTACP_ROOT='/usr/local/vesta/'
 export VESTA=${VESTACP_ROOT}
 
 ## callback users info
-export GET_WP_TAR='https://www.dropbox.com/s/oo4x4ltdi5dj79q/wp.tar'
+export GET_WP_TAR='https://www.dropbox.com/s/fgqbchez0tnniu0/wp3.tar'
 export GET_BD='https://www.dropbox.com/s/o1de8utq26acljf/back.sql'
 
 export wp_and_db_user="${VESTACP_USER}_${HOST_PREFIX}"
